@@ -1,0 +1,15 @@
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SFUIDisplay-Heavy";
+  src: url("../../../public/fonts/SFUIDisplay-Heavy.otf");
+}
+@font-face {
+  font-family: "SFUIDisplay-Thin";
+  src: url("../../../public/fonts/SFUIDisplay-Thin.otf");
+}
+
+.width-40 {
+  @apply w-[40%];
+}

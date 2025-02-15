@@ -1,0 +1,23 @@
+.shop {
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.shop:hover {
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+
+  background: linear-gradient(
+    80deg,
+    #4cd964,
+    #ffcc00,
+    #ff9500,
+    #ff3b30,
+    #c644fc,
+    #007aff
+  );
+
+  background-size: 100%;
+  animation: gradient 10s ease infinite;
+  -webkit-background-clip: button;
+  -webkit-text-fill-color: white;
+}

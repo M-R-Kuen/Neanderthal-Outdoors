@@ -37,7 +37,7 @@ const LandingPage: React.FC = () => {
           >
             Enter
             <Image
-              src="/images/group.svg"
+              src="/images/Group.svg"
               alt="arrow"
               width={32}
               height={8}

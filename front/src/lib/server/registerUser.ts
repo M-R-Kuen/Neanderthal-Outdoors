@@ -1,7 +1,8 @@
 import axios from "axios";
 import { FormRegisterProps } from "@/types/forms/registerTypes";
 
-const API_PUBLIC = process.env.NEXT_PUBLIC_API_URL;
+//const API_PUBLIC = process.env.NEXT_PUBLIC_API_URL;
+const API_PUBLIC = "https://neanderthal-outdoors.onrender.com";
 
 export const registerUser = async (data: FormRegisterProps) => {
   try {

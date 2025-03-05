@@ -74,7 +74,7 @@ export const RegisterForm: React.FC = () => {
         onSubmit={handleRegisterSubmit}
         redirectLink="/login"
         redirectText="Already have an account?"
-        buttonText="Login"
+        buttonText="Register"
         backendError={backendError}
         successMessage={successMessage}
         isModalOpen={isModalOpen}

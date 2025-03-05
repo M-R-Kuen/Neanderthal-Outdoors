@@ -67,7 +67,7 @@ const LoginForm: React.FC = () => {
         onSubmit={handleLoginSubmit}
         redirectLink="login/register"
         redirectText="Don't have an account?"
-        buttonText="Register"
+        buttonText="Login"
         backendError={backendError}
         successMessage={successMessage}
         isModalOpen={isModalOpen}
